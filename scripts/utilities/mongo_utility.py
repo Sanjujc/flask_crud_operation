@@ -30,10 +30,22 @@ class MongoUtility:
             mongo_obj = self.mongo_client
             db = mongo_obj[MONGO_DATABASE]
             collection_name = db[collection_name]
-            final_json = collection_name.find({},{'_id': 0})
+            final_json = collection_name.find({}, {'_id': 0})
             return final_json
         except Exception as e:
             logger.error(f"Error occurred while lisiting the record,'{str(e)}'", exc_info=True)
+            return e
+
+    def find_record_by_specific(self, collection_name, select_query):
+        try:
+            logger.info("Inside the find record")
+            mongo_obj = self.mongo_client
+            db = mongo_obj[MONGO_DATABASE]
+            collection_name = db[collection_name]
+            final_json = collection_name.find({}, select_query)
+            return final_json
+        except Exception as e:
+            logger.error(f"Error occurred while listing the record,'{str(e)}'", exc_info=True)
             return e
 
     @staticmethod
