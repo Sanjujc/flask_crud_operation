@@ -32,3 +32,16 @@ def list_user():
     except Exception as e:
         logger.error(f"Error occurred while inserting the user:{str(e)}", exc_info=True)
         return Status.error_occurred
+
+
+@user_service.get('/list_user_by_specific')
+def list_user_by_specific():
+    try:
+        logger.info("Inside the list user specific service")
+        request_data = request.json
+        print(request_data)
+        final_json = UserManagement().find_user_by_specific(request_data)
+        return final_json
+    except Exception as e:
+        logger.error(f"Error occurred while inserting the user:{str(e)}", exc_info=True)
+        return Status.error_occurred
