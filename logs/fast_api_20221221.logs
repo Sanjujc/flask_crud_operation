@@ -1,0 +1,142 @@
+2022-12-21 10:23:54,054 - Fast API - INFO  - user_management_service.py - user_management_service: register_user: 11 - Inside the register user template
+2022-12-21 10:37:11,795 - Fast API - INFO  - user_management_service.py - user_management_service: register_user: 12 - Inside the register user template
+2022-12-21 10:37:24,295 - Fast API - INFO  - user_management_service.py - user_management_service: register_user: 12 - Inside the register user template
+2022-12-21 10:41:35,065 - Fast API - INFO  - user_management_service.py - user_management_service: register_user: 12 - Inside the register user template
+2022-12-21 10:41:35,065 - Fast API - INFO  - user_management_handler.py - user_management_handler: register_user: 11 - Inside the register user handler
+2022-12-21 10:42:08,123 - Fast API - INFO  - user_management_service.py - user_management_service: register_user: 12 - Inside the register user template
+2022-12-21 10:42:08,123 - Fast API - INFO  - user_management_handler.py - user_management_handler: register_user: 11 - Inside the register user handler
+2022-12-21 10:42:40,528 - Fast API - INFO  - user_management_service.py - user_management_service: register_user: 12 - Inside the register user template
+2022-12-21 10:42:40,529 - Fast API - INFO  - user_management_handler.py - user_management_handler: register_user: 11 - Inside the register user handler
+2022-12-21 10:56:52,430 - Fast API - INFO  - user_management_service.py - user_management_service: register_user: 12 - Inside the register user template
+2022-12-21 10:56:52,437 - Fast API - INFO  - user_management_handler.py - user_management_handler: register_user: 11 - Inside the register user handler
+2022-12-21 11:34:18,458 - Fast API - INFO  - user_management_service.py - user_management_service: register_user: 12 - Inside the register user template
+2022-12-21 11:34:18,460 - Fast API - INFO  - user_management_handler.py - user_management_handler: register_user: 12 - Inside the register user handler
+2022-12-21 11:34:18,461 - Fast API - ERROR  - user_management_handler.py - user_management_handler: register_user: 16 - Error occured while registering the user:'port must be an instance of int'
+Traceback (most recent call last):
+  File "E:\Fluxa Learning\Flask Crud\flask_crud_operation\scripts\core\Handler\user_management_handler.py", line 13, in register_user
+    database_name =MongoUtility().insert_record()
+  File "E:\Fluxa Learning\Flask Crud\flask_crud_operation\scripts\utilities\mongo_utility.py", line 12, in __init__
+    client = MongoClient(MONGO_HOST, MONGO_PORT)
+  File "C:\Users\sanju.jayachandran\Anaconda3\envs\flask_learning\lib\site-packages\pymongo\mongo_client.py", line 703, in __init__
+    raise TypeError("port must be an instance of int")
+TypeError: port must be an instance of int
+2022-12-21 11:34:36,155 - Fast API - INFO  - user_management_service.py - user_management_service: register_user: 12 - Inside the register user template
+2022-12-21 11:34:36,157 - Fast API - INFO  - user_management_handler.py - user_management_handler: register_user: 12 - Inside the register user handler
+2022-12-21 11:34:36,157 - Fast API - ERROR  - user_management_handler.py - user_management_handler: register_user: 16 - Error occured while registering the user:'port must be an instance of int'
+Traceback (most recent call last):
+  File "E:\Fluxa Learning\Flask Crud\flask_crud_operation\scripts\core\Handler\user_management_handler.py", line 13, in register_user
+    database_name =MongoUtility().insert_record()
+  File "E:\Fluxa Learning\Flask Crud\flask_crud_operation\scripts\utilities\mongo_utility.py", line 12, in __init__
+    client = MongoClient(MONGO_HOST, MONGO_PORT)
+  File "C:\Users\sanju.jayachandran\Anaconda3\envs\flask_learning\lib\site-packages\pymongo\mongo_client.py", line 703, in __init__
+    raise TypeError("port must be an instance of int")
+TypeError: port must be an instance of int
+2022-12-21 11:34:57,061 - Fast API - INFO  - user_management_service.py - user_management_service: register_user: 12 - Inside the register user template
+2022-12-21 11:34:57,063 - Fast API - INFO  - user_management_handler.py - user_management_handler: register_user: 12 - Inside the register user handler
+2022-12-21 11:34:57,063 - Fast API - ERROR  - user_management_handler.py - user_management_handler: register_user: 16 - Error occured while registering the user:'port must be an instance of int'
+Traceback (most recent call last):
+  File "E:\Fluxa Learning\Flask Crud\flask_crud_operation\scripts\core\Handler\user_management_handler.py", line 13, in register_user
+    database_name =MongoUtility().insert_record()
+  File "E:\Fluxa Learning\Flask Crud\flask_crud_operation\scripts\utilities\mongo_utility.py", line 12, in __init__
+    client = MongoClient(MONGO_HOST, MONGO_PORT)
+  File "C:\Users\sanju.jayachandran\Anaconda3\envs\flask_learning\lib\site-packages\pymongo\mongo_client.py", line 703, in __init__
+    raise TypeError("port must be an instance of int")
+TypeError: port must be an instance of int
+2022-12-21 11:35:03,865 - Fast API - INFO  - user_management_service.py - user_management_service: register_user: 12 - Inside the register user template
+2022-12-21 11:35:03,866 - Fast API - INFO  - user_management_handler.py - user_management_handler: register_user: 12 - Inside the register user handler
+2022-12-21 11:35:03,866 - Fast API - ERROR  - user_management_handler.py - user_management_handler: register_user: 16 - Error occured while registering the user:'port must be an instance of int'
+Traceback (most recent call last):
+  File "E:\Fluxa Learning\Flask Crud\flask_crud_operation\scripts\core\Handler\user_management_handler.py", line 13, in register_user
+    database_name =MongoUtility().insert_record()
+  File "E:\Fluxa Learning\Flask Crud\flask_crud_operation\scripts\utilities\mongo_utility.py", line 12, in __init__
+    client = MongoClient(MONGO_HOST, MONGO_PORT)
+  File "C:\Users\sanju.jayachandran\Anaconda3\envs\flask_learning\lib\site-packages\pymongo\mongo_client.py", line 703, in __init__
+    raise TypeError("port must be an instance of int")
+TypeError: port must be an instance of int
+2022-12-21 11:37:47,745 - Fast API - INFO  - user_management_service.py - user_management_service: register_user: 12 - Inside the register user template
+2022-12-21 11:37:47,745 - Fast API - INFO  - user_management_handler.py - user_management_handler: register_user: 12 - Inside the register user handler
+2022-12-21 11:37:47,745 - Fast API - ERROR  - user_management_handler.py - user_management_handler: register_user: 16 - Error occured while registering the user:'port must be an instance of int'
+Traceback (most recent call last):
+  File "E:\Fluxa Learning\Flask Crud\flask_crud_operation\scripts\core\Handler\user_management_handler.py", line 13, in register_user
+    database_name =MongoUtility().insert_record()
+  File "E:\Fluxa Learning\Flask Crud\flask_crud_operation\scripts\utilities\mongo_utility.py", line 12, in __init__
+    client = MongoClient(MONGO_HOST, MONGO_PORT)
+  File "C:\Users\sanju.jayachandran\Anaconda3\envs\flask_learning\lib\site-packages\pymongo\mongo_client.py", line 703, in __init__
+    raise TypeError("port must be an instance of int")
+TypeError: port must be an instance of int
+2022-12-21 11:40:15,505 - Fast API - INFO  - user_management_service.py - user_management_service: register_user: 12 - Inside the register user template
+2022-12-21 11:40:15,515 - Fast API - INFO  - user_management_handler.py - user_management_handler: register_user: 12 - Inside the register user handler
+2022-12-21 11:40:15,516 - Fast API - INFO  - mongo_utility.py - mongo_utility: insert_record: 20 - Inside the insert record mongo utility
+2022-12-21 11:40:42,577 - Fast API - INFO  - user_management_service.py - user_management_service: register_user: 12 - Inside the register user template
+2022-12-21 11:40:42,585 - Fast API - INFO  - user_management_handler.py - user_management_handler: register_user: 12 - Inside the register user handler
+2022-12-21 11:40:42,586 - Fast API - INFO  - mongo_utility.py - mongo_utility: insert_record: 20 - Inside the insert record mongo utility
+2022-12-21 11:41:23,401 - Fast API - INFO  - user_management_service.py - user_management_service: register_user: 12 - Inside the register user template
+2022-12-21 11:41:23,402 - Fast API - INFO  - user_management_handler.py - user_management_handler: register_user: 12 - Inside the register user handler
+2022-12-21 11:41:23,428 - Fast API - INFO  - mongo_utility.py - mongo_utility: insert_record: 17 - Inside the insert record mongo utility
+2022-12-21 11:47:04,811 - Fast API - INFO  - user_management_service.py - user_management_service: register_user: 12 - Inside the register user template
+2022-12-21 11:47:04,812 - Fast API - INFO  - user_management_handler.py - user_management_handler: register_user: 12 - Inside the register user handler
+2022-12-21 11:47:04,821 - Fast API - ERROR  - user_management_handler.py - user_management_handler: register_user: 16 - Error occured while registering the user:'insert_record() missing 1 required positional argument: 'collection_name''
+Traceback (most recent call last):
+  File "E:\Fluxa Learning\Flask Crud\flask_crud_operation\scripts\core\Handler\user_management_handler.py", line 13, in register_user
+    database_name =MongoUtility().insert_record()
+TypeError: insert_record() missing 1 required positional argument: 'collection_name'
+2022-12-21 11:47:57,808 - Fast API - INFO  - user_management_service.py - user_management_service: register_user: 12 - Inside the register user template
+2022-12-21 11:47:57,809 - Fast API - INFO  - user_management_handler.py - user_management_handler: register_user: 13 - Inside the register user handler
+2022-12-21 11:47:57,821 - Fast API - INFO  - mongo_utility.py - mongo_utility: insert_record: 14 - Inside the insert record mongo utility
+2022-12-21 11:52:29,521 - Fast API - INFO  - user_management_service.py - user_management_service: register_user: 12 - Inside the register user template
+2022-12-21 11:52:29,522 - Fast API - INFO  - user_management_handler.py - user_management_handler: register_user: 13 - Inside the register user handler
+2022-12-21 11:52:29,530 - Fast API - INFO  - mongo_utility.py - mongo_utility: insert_record: 14 - Inside the insert record mongo utility
+2022-12-21 11:52:29,530 - Fast API - ERROR  - mongo_utility.py - mongo_utility: insert_record: 20 - Error occurred while inserting the record
+2022-12-21 11:53:28,560 - Fast API - INFO  - user_management_service.py - user_management_service: register_user: 12 - Inside the register user template
+2022-12-21 11:53:28,562 - Fast API - INFO  - user_management_handler.py - user_management_handler: register_user: 13 - Inside the register user handler
+2022-12-21 11:53:28,587 - Fast API - INFO  - mongo_utility.py - mongo_utility: insert_record: 14 - Inside the insert record mongo utility
+2022-12-21 11:53:58,641 - Fast API - ERROR  - mongo_utility.py - mongo_utility: insert_record: 20 - Error occurred while inserting the record
+2022-12-21 11:54:52,421 - Fast API - INFO  - user_management_service.py - user_management_service: register_user: 12 - Inside the register user template
+2022-12-21 11:54:52,423 - Fast API - INFO  - user_management_handler.py - user_management_handler: register_user: 13 - Inside the register user handler
+2022-12-21 11:54:52,431 - Fast API - INFO  - mongo_utility.py - mongo_utility: insert_record: 14 - Inside the insert record mongo utility
+2022-12-21 12:03:06,565 - Fast API - ERROR  - mongo_utility.py - mongo_utility: insert_record: 20 - Error occurred while inserting the record
+2022-12-21 12:07:46,920 - Fast API - INFO  - user_management_service.py - user_management_service: register_user: 12 - Inside the register user template
+2022-12-21 12:07:46,928 - Fast API - INFO  - user_management_handler.py - user_management_handler: register_user: 13 - Inside the register user handler
+2022-12-21 12:07:46,945 - Fast API - INFO  - mongo_utility.py - mongo_utility: insert_record: 14 - Inside the insert record mongo utility
+2022-12-21 12:08:17,414 - Fast API - ERROR  - mongo_utility.py - mongo_utility: insert_record: 20 - Error occurred while inserting the record
+2022-12-21 12:23:53,827 - Fast API - INFO  - user_management_service.py - user_management_service: register_user: 12 - Inside the register user template
+2022-12-21 12:23:53,830 - Fast API - INFO  - user_management_handler.py - user_management_handler: register_user: 13 - Inside the register user handler
+2022-12-21 12:23:53,851 - Fast API - INFO  - mongo_utility.py - mongo_utility: insert_record: 15 - Inside the insert record mongo utility
+2022-12-21 12:25:23,161 - Fast API - INFO  - user_management_service.py - user_management_service: register_user: 12 - Inside the register user template
+2022-12-21 12:25:23,168 - Fast API - INFO  - user_management_handler.py - user_management_handler: register_user: 13 - Inside the register user handler
+2022-12-21 12:25:23,188 - Fast API - INFO  - mongo_utility.py - mongo_utility: insert_record: 15 - Inside the insert record mongo utility
+2022-12-21 12:33:03,671 - Fast API - INFO  - user_management_service.py - user_management_service: register_user: 12 - Inside the register user template
+2022-12-21 12:33:03,671 - Fast API - INFO  - user_management_handler.py - user_management_handler: register_user: 13 - Inside the register user handler
+2022-12-21 12:33:03,676 - Fast API - INFO  - mongo_utility.py - mongo_utility: insert_record: 15 - Inside the insert record mongo utility
+2022-12-21 12:36:57,885 - Fast API - INFO  - user_management_service.py - user_management_service: register_user: 12 - Inside the register user template
+2022-12-21 12:36:57,887 - Fast API - INFO  - user_management_handler.py - user_management_handler: register_user: 13 - Inside the register user handler
+2022-12-21 12:36:57,911 - Fast API - INFO  - mongo_utility.py - mongo_utility: insert_record: 15 - Inside the insert record mongo utility
+2022-12-21 12:42:34,948 - Fast API - INFO  - user_management_service.py - user_management_service: register_user: 12 - Inside the register user template
+2022-12-21 12:42:34,950 - Fast API - INFO  - user_management_handler.py - user_management_handler: register_user: 13 - Inside the register user handler
+2022-12-21 12:44:17,757 - Fast API - INFO  - user_management_service.py - user_management_service: register_user: 12 - Inside the register user template
+2022-12-21 12:44:17,757 - Fast API - INFO  - user_management_handler.py - user_management_handler: register_user: 13 - Inside the register user handler
+2022-12-21 12:45:47,773 - Fast API - INFO  - user_management_service.py - user_management_service: register_user: 12 - Inside the register user template
+2022-12-21 12:45:47,774 - Fast API - INFO  - user_management_handler.py - user_management_handler: register_user: 13 - Inside the register user handler
+2022-12-21 12:46:20,066 - Fast API - INFO  - user_management_service.py - user_management_service: register_user: 12 - Inside the register user template
+2022-12-21 12:46:20,067 - Fast API - INFO  - user_management_handler.py - user_management_handler: register_user: 13 - Inside the register user handler
+2022-12-21 12:46:48,540 - Fast API - INFO  - user_management_service.py - user_management_service: register_user: 12 - Inside the register user template
+2022-12-21 12:46:48,541 - Fast API - INFO  - user_management_handler.py - user_management_handler: register_user: 13 - Inside the register user handler
+2022-12-21 12:47:05,717 - Fast API - INFO  - user_management_service.py - user_management_service: register_user: 12 - Inside the register user template
+2022-12-21 12:47:05,718 - Fast API - INFO  - user_management_handler.py - user_management_handler: register_user: 13 - Inside the register user handler
+2022-12-21 12:47:34,170 - Fast API - INFO  - user_management_service.py - user_management_service: register_user: 12 - Inside the register user template
+2022-12-21 12:47:34,171 - Fast API - INFO  - user_management_handler.py - user_management_handler: register_user: 13 - Inside the register user handler
+2022-12-21 12:50:06,325 - Fast API - INFO  - user_management_service.py - user_management_service: register_user: 12 - Inside the register user template
+2022-12-21 12:50:06,328 - Fast API - INFO  - user_management_handler.py - user_management_handler: register_user: 13 - Inside the register user handler
+2022-12-21 12:50:06,345 - Fast API - INFO  - mongo_utility.py - mongo_utility: insert_record: 16 - Inside the insert record 
+2022-12-21 12:50:56,848 - Fast API - INFO  - user_management_service.py - user_management_service: register_user: 12 - Inside the register user template
+2022-12-21 12:50:56,850 - Fast API - INFO  - user_management_handler.py - user_management_handler: register_user: 13 - Inside the register user handler
+2022-12-21 12:50:56,880 - Fast API - INFO  - mongo_utility.py - mongo_utility: insert_record: 16 - Inside the insert record 
+2022-12-21 12:55:09,232 - Fast API - INFO  - user_management_service.py - user_management_service: register_user: 12 - Inside the register user template
+2022-12-21 12:55:09,234 - Fast API - INFO  - user_management_handler.py - user_management_handler: register_user: 13 - Inside the register user handler
+2022-12-21 12:55:09,246 - Fast API - INFO  - mongo_utility.py - mongo_utility: insert_record: 17 - Inside the insert record 
+2022-12-21 12:55:55,502 - Fast API - INFO  - user_management_service.py - user_management_service: register_user: 12 - Inside the register user template
+2022-12-21 12:55:55,504 - Fast API - INFO  - user_management_handler.py - user_management_handler: register_user: 13 - Inside the register user handler
+2022-12-21 12:55:55,519 - Fast API - INFO  - mongo_utility.py - mongo_utility: insert_record: 17 - Inside the insert record 
+2022-12-21 12:56:11,722 - Fast API - INFO  - user_management_service.py - user_management_service: register_user: 12 - Inside the register user template
+2022-12-21 12:56:11,725 - Fast API - INFO  - user_management_handler.py - user_management_handler: register_user: 13 - Inside the register user handler
+2022-12-21 12:56:11,755 - Fast API - INFO  - mongo_utility.py - mongo_utility: insert_record: 17 - Inside the insert record 

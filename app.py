@@ -1,6 +1,6 @@
 from flask import Flask
 
-from Service.user_management_service import user_service
+from scripts.core.Service.user_management_service import user_service
 
 app = Flask(__name__)
 
