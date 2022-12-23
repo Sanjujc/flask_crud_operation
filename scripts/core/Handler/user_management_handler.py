@@ -36,8 +36,6 @@ class UserManagement:
     def find_user_by_specific(self, request_data):
         try:
             logger.error("Inside the listing the user details by name")
-            print(type(request_data))
-
             select_query = {
                 '_id': 0,
 
@@ -49,3 +47,17 @@ class UserManagement:
         except Exception as e:
             logger.error(f"Error occurred while listing the user details:{str(e)}")
             return False
+
+    def update_user(self, request_data):
+        try:
+            user_active = request_data.get('active', '')
+            logger.info("Inside the update user handler")
+            condition = {'status': user_active}
+            select_query = {'$set': {'bonus': 'Approved'}}
+            MongoUtility().update_record(self.user_collection_name, condition=condition,
+                                         update_query=select_query)
+
+            return Status.executed
+        except Exception as e:
+            logger.error(f"Error occurred while updating the user:{str(e)}")
+            return e

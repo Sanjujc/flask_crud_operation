@@ -51,3 +51,16 @@ class MongoUtility:
     @staticmethod
     def parse_json(data):
         return json.loads(json_util.dumps(data))
+
+    def update_record(self, collection_name, condition, update_query):
+        try:
+            logger.info("Inside the update query")
+            mongo_obj = self.mongo_client
+            db = mongo_obj[MONGO_DATABASE]
+            collection_name = db[collection_name]
+            print(condition,update_query)
+            final_json = collection_name.update_many(condition, update_query)
+            return "Yes"
+        except Exception as e:
+            logger.error(f"Error occurred while updating the record,'{str(e)}'", exc_info=True)
+            return e
